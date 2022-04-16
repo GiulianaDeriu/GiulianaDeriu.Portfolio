@@ -1,0 +1,54 @@
+html,body{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+}
+
+p, 
+h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+}
+
+#foto{
+    height: 270px;
+}
+
+footer{
+    color: white;
+    background-color: #212529;
+}
+/*favicon*/
+.social a{
+    font-size: 1.5em;
+    padding: 0.8rem;
+  }
+    
+.fa-facebook, 
+.fa-instagram,
+.fa-linkedin,
+.fa-github{
+    color: white;
+    transition-duration: 0.2s;
+}
+  
+.fa-facebook:hover{
+    color: #3b5998;
+    transform: scale(1.2);
+}
+  
+.fa-instagram:hover{
+    color: #ff05a7;
+    transform: scale(1.2);
+}
+  
+.fa-linkedin:hover{
+    color: #0a66c2;
+    transform: scale(1.2);
+}
+
+.fa-github:hover{
+    color: #5d0097;
+    transform: scale(1.2);
+}
+

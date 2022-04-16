@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+
+html, body{  
+  font-family:'Oswald', sans-serif;
+}
+
+.navbar{
+  height: 200px;
+  }
+
+#nav2{
+  height: 50px;
+
+}
+
+.nav-item{
+  height: 50px;
+  margin: auto;
+}
+
+.navbar-nav.navbar-center{
+  height: 50px;
+  flex: none
+  !important;
+}
+
+
+
+#features1{
+  background-image: url(img/inchiostro1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+.gap100{
+  padding: 70px 0px;
+}
+
+#features{
+  background-image: url(img/sfondo2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+
+/*favicon*/
+.favicon{
+  font-size: 2em;
+  padding: 1.5rem;
+
+}
+.fa-facebook,
+.fa-instagram,
+.fa-whatsapp{
+  color: whitesmoke; 
+  transition-duration: 0.2s;
+}
+
+.fa-facebook:hover, 
+.fa-whatsapp:hover,
+.fa-instagram:hover {
+  color: #ffa819;
+  transform: scale(1.2);
+}
+
+.logo{
+  transition-duration: 0.2s;
+}
+
+.logo:hover{
+  transform: scale(1.2);
+}
+
+#sani{
+  max-width: 100%;
+  height: 485px;
+  margin-left: 127px;
+}
+
+button{
+  margin-left: 20px;
+  border-radius: 12px;
+  color: #212529;
+  background-color: #ffa819;
+  transition-duration: 0.2s;
+}
+
+button:hover{
+  color: #ffa819;
+  background-color: #212529;
+  transform: scale(1.2);
+}
+
+.img-responsive{
+  width: 302px;
+  height: 270px;
+  margin: auto;
+}
+
+.piercing2{
+  margin: 0px;
+  background-image: url(img/piercing2.jpg);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 140%;
+  font-weight: normal;
+  line-height: 260px;
+  text-align: center;
+  width: 302px;
+  height: 270px;
+}
+
+.tattoo3{
+  margin: 0px;
+  background-image: url(img/tattoo3.jpg);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 140%;
+  font-weight: normal;
+  line-height: 260px;
+  text-align: center;
+  width: 302px;
+  height: 270px;
+}
+.piercing1{
+  margin: 0px;
+  background-image: url(img/piercing1.jpg);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 140%;
+  font-weight: normal;
+  line-height: 260px;
+  text-align: center;
+  width: 302px;
+  height: 270px;
+}
+
+.microb{
+  margin: 0px;
+  background-image: url(img/microb.jpg);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 140%;
+  font-weight: normal;
+  line-height: 260px;
+  text-align: center;
+  width: 302px;
+  height: 270px;
+}
+
+#h4{  
+color: #FFFFFF;
+font-size: 100%;
+font-weight: normal;
+line-height: 260px;
+text-align: center;
+width: 302px;
+height: 270px;
+transition: 0.5;
+}
+
+#h4:hover{
+  transform: scale(1.2);
+    }
+
+footer{
+  color: whitesmoke;
+  background-color: #212529;
+}
+
+.name-yellow{
+  color: #ffa819;
+}
+
+  /*---Media Queries --*/
+@media (max-width: 992px){
+  .logo{
+    width: 150px;    
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-whatsapp{
+    width: 20px;
+  } 
+}
+
+@media (max-width: 768px) {
+  .logo{
+    width: 100px;
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-whatsapp{
+    width: 18px;
+  }
+
+}
+
+@media (max-width: 576px){
+  .logo{
+    width: 100px;    
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-whatsapp{
+    width: 15px;
+  }
+  #little{
+    width: 400px
+    !important;
+  }
+  
+}
