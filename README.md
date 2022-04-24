@@ -1,2 +1,8 @@
-Questo è il mio progetto per Start2Impcat!
-Clicca il link seguente per vederlo: [Il mio progetto](https://giulianaderiu.github.io/GiulianaDeriu.Portfolio/GiulianaDeriu/index.html)
+#Portfolio
+##First Start2Impact's project 
+This portfolio contains works that were made for doing some practice: [Il mio progetto](https://giulianaderiu.github.io/GiulianaDeriu.Portfolio/GiulianaDeriu/index.html)
+###
+##Technologies:
+*HTML5;
+*CSS3;
+*Bootstrap5.
