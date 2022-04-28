@@ -18,6 +18,18 @@ footer{
     color: white;
     background-color: #212529;
 }
+
+label {
+    margin: 0px 10px 0px 10px;
+}
+
+form#contact-form {
+    height: 24px;
+    display: inline-flex;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
 /*favicon*/
 .social a{
     font-size: 1.5em;
