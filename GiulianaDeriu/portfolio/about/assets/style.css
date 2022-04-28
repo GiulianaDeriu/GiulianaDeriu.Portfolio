@@ -34,6 +34,22 @@ footer{
     color: white;
     background-color: #212529;
 }
+
+#fromName,
+#msg{
+    margin: 0px 10px 0px 10px;
+    font-family: proxima-nova, sans-serif;
+    height: 24px;
+    display: inline-flex;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#sendEmail:hover {
+    color: white;
+    background-color: #212529;
+}
+
 /*favicon*/
 .social a{
     font-size: 1.5em;
