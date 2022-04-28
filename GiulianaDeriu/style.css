@@ -19,15 +19,19 @@ footer{
     background-color: #212529;
 }
 
-label{
+#fromName,
+#msg{
     margin: 0px 10px 0px 10px;
-}
-
-#contact-form{
+    font-family: proxima-nova, sans-serif;
     height: 24px;
     display: inline-flex;
     margin-bottom: 50px;
     margin-top: 20px;
+}
+
+#sendEmail:hover {
+    color: white;
+    background-color: #212529;
 }
 
 /*favicon*/
@@ -63,4 +67,5 @@ label{
     color: #5d0097;
     transform: scale(1.2);
 }
+
 
